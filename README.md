@@ -20,10 +20,10 @@ The code was reverse engineered from several C and Perl applications. I sadly do
     my $decrypted = Blowfish::decrypt($encrypted, 'secret_key');
     
     # prints 'hwwnV0UVbDE1z2N0E0AZlBT/Mi965/OLpHf/'
-    print $encrypted ."\\n";
+    print $encrypted ."\n";
     	
     # prints 'this is plaintext'
-    print $decrypted ."\\n";
+    print $decrypted ."\n";
 	
 ## IRC usage
 
